@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/love2"
+            android:title="收藏"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@mipmap/ic_event"
+            android:title="再试试"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_headset"
+
+            android:title="再试试"/>
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@mipmap/ic_forum"
+            android:title="额呃呃呃"/>
+    </group>
+
+
+</menu>

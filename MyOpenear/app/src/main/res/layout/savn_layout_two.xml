@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/savn_layout_1"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <com.fmsirvent.ParallaxEverywhere.PEWImageView
+            android:id="@+id/savn_img_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            android:alpha="100"/>
+        <ImageButton
+
+            android:background="@drawable/action_start"
+            android:id="@+id/savn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+        <com.fmsirvent.ParallaxEverywhere.PEWImageView
+            android:id="@+id/savn_img_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            android:alpha="100"/>
+        <TextView
+
+            android:text="超萌安卓广告"
+            android:textSize="23sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/savn_text_1"
+            android:layout_marginTop="15dp"
+
+            />
+        <View
+            android:id="@+id/view_1"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/savn_text_1"
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:background="#fff"/>
+        <TextView
+            android:id="@+id/savn_text_2"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_below="@+id/view_1"
+            android:text="广告/0'1'00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="6dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_below="@+id/savn_text_2"
+            android:text="默认新闻默认新闻默认新闻默认新闻默认新闻默认新闻默认新闻默认新闻"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/savn_text_3"/>
+        <ImageButton
+            android:id="@+id/savn_love"
+            android:layout_below="@+id/savn_text_3"
+            android:src="@drawable/love2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>
